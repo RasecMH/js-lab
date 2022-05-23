@@ -12,7 +12,7 @@ A quiz with random questions about a pokemon, using an API to get the informatio
 
 #### Project steps:
 ##### HTML & CSS
-- [ ] Create the HTML structure
+- [x] Create the HTML structure
 - [ ] Make the CSS styles for all classes
 ##### JAVASCRIPT
 - [ ] Implement a function that get a random pokemon and storage all information needed
