@@ -1,0 +1,24 @@
+{
+  "name": "js-lab",
+  "version": "1.0.0",
+  "description": "This repository cotains my studies and personal projects with JavaScript. I've started learning JavaScript in february 2022.",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RasecMH/js-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RasecMH/js-lab/issues"
+  },
+  "homepage": "https://github.com/RasecMH/js-lab#readme"
+}
