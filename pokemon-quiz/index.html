@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <script src="./script.js" type="module" defer></script>
   <link rel="stylesheet" href="style.css">
   <title>Pokemon Quiz</title>
 </head>
@@ -15,32 +16,31 @@
     <h1 class="header-title">Pokemon Random Quiz</h1>
     <div class="info-container">
       <select name="" id="pokemon-gen" class="select-gen">
-        <option value="all-gens">All</option>
-        <option value="first-gen">1ª Gen</option>
-        <option value="second-gen">2ª Gen</option>
-        <option value="third-gen">3ª Gen</option>
-        <option value="fourth-gen">4ª Gen</option>
-        <option value="fifth-gen">5ª Gen</option>
-        <option value="sixth-gen">6ª Gen</option>
-        <option value="seventh-gen">7ª Gen</option>
-        <option value="eighth-gen">8ª Gen</option>
+        <option value="all-gens" name="gen-selection" selected>All</option>
+        <option value="1" name="gen-selection">1ª Gen</option>
+        <option value="2" name="gen-selection">2ª Gen</option>
+        <option value="3" name="gen-selection">3ª Gen</option>
+        <option value="4" name="gen-selection">4ª Gen</option>
+        <option value="5" name="gen-selection">5ª Gen</option>
+        <option value="6" name="gen-selection">6ª Gen</option>
+        <option value="7" name="gen-selection">7ª Gen</option>
       </select>
-      <p class="score">Score: 0</p>
+      <p class="score">Score: </p>
     </div>
   </header>
   <main>
     <div class="image-container">
-      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1f619ed0-b566-4538-8392-bf02ca7a76cd/dck5gop-42198a25-24ed-47b3-b061-17b61d933fdd.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFmNjE5ZWQwLWI1NjYtNDUzOC04MzkyLWJmMDJjYTdhNzZjZFwvZGNrNWdvcC00MjE5OGEyNS0yNGVkLTQ3YjMtYjA2MS0xN2I2MWQ5MzNmZGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SJag-8wJaCxlLc25L9bORY6Un2PKFOHS04hbbMh5O6U" alt="Bulbasaur" class="pokemon-image">
+      <img src="" alt="" class="pokemon-image">
     </div>
     <div class="question-container">
-      <h3 class="question">Qual o nome desse pokemon?</h3>
+      <h3 class="question">Carregando...</h3>
       <div class="upper-answers-buttons">
-        <button class="answer-button">Bulbasaur</button>
-        <button class="answer-button">Charizard</button>
+        <button class="answer-button"></button>
+        <button class="answer-button"></button>
       </div>
       <div class="lower-answers-buttons">
-        <button class="answer-button">Pikachu</button>
-        <button class="answer-button">Squirtle</button>
+        <button class="answer-button"></button>
+        <button class="answer-button"></button>
       </div>
     </div>
   </main>
